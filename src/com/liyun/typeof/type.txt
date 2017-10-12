@@ -1,0 +1,42 @@
+Explain the data type of the follwing operations
+
+
+boolean b = true;
+
+int i = 3, j = 4;
+
+double d = 3, e = 4;
+
+String s = "hello";
+
+(a)i/j
+
+int
+ 
+(b)i/b
+
+
+不能运行 报错 The operator / is undefined for the argument type(s) int, boolean
+(c)d/e
+
+double
+
+(d)d/j
+
+
+Double
+Java 自动转换
+(e)s+d
+String
+
+字符串和数字直接相加，是把数字当成了字符串，这是JAVA的装箱机制，最终相当于字符串的连接
+
+
+(f)s-e
+报错The operator - is undefined for the argument type(s) String, double
+
+
+(g)i+b
+
+
+报错 The operator + is undefined for the argument type(s) int, boolean
