@@ -1,11 +1,11 @@
-package Collection;
+package collection;
 
 import java.util.HashSet;
 import java.util.Iterator;
 
 public class HashSet_test {
 	/*
-	 * Hashset放入对象后会先比较hashcode然后比较equals
+	 * HashSet 比较两个对象是否相同的机制是 1.hash  2. ==   3.equals()搜索
 	 * 
 	 * HashSet不能添加重复的元素，当调用add（Object）方法时候，
 	 * 首先会调用Object的hashCode方法判hashCode是否已经存在，如不存在则直接插入元素；
