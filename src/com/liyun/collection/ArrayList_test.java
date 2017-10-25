@@ -1,4 +1,4 @@
-package collection;
+package com.liyun.collection;
 import java.util.*;
 
 public class ArrayList_test {
